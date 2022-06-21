@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,500&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html, body{
+    background-image:url(https://i.pinimg.com/564x/8d/73/de/8d73dedc4f956497a35a4220191f5b41.jpg);
+    background-repeat:no-repeat;
+    background-size:100vw 100vh;
+}
+
+.container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.container_tree{
+    background:rgb(255, 255, 255, 0.50);
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 4px rgba(1, 7, 1, 0.5);
+    margin-top:3vh;
+    padding:25px;
+    width:340px;
+    height:90vh;
+}
+
+.logo, .photo{
+    display: flex;
+    margin:auto;
+    border-radius:50%;
+    background-image:url(./imge/circulo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:202px;
+    padding:3px;
+}
+
+.desc{
+    text-align:center;
+    margin-top:5px;
+    font-size: 25px;
+    font-family: 'Acme', sans-serif;
+}
+.desc2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+    color:rgba(7, 22, 22, 0.781);
+    margin-top:2px;
+    border-bottom:1px solid rgb(0, 0, 0);
+}
+
+.link_tree{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    padding:10px;
+    border-bottom:1px solid rgb(0, 0, 0);
+    font-family: 'Overpass', sans-serif;
+}
+.link{
+    padding:10px 30px;
+    font-size: 22px;
+    border-bottom:1px solid rgb(0, 0, 0);
+    display:flex;
+    margin-top: 5px;
+}
+
+.logo_ico{
+    margin-right:15px;
+}
