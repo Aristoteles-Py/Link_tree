@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap');
+
+
 
 * {
     margin:0;
@@ -10,6 +11,7 @@ html, body{
     background-image:url(https://i.pinimg.com/564x/8d/73/de/8d73dedc4f956497a35a4220191f5b41.jpg);
     background-repeat:no-repeat;
     background-size:100vw 100vh;
+    
 }
 
 .container{
@@ -43,17 +45,18 @@ html, body{
 }
 
 .desc{
+    font-family: 'Montserrat', sans-serif;
     text-align:center;
     margin-top:5px;
     font-size: 25px;
-    font-family: 'Acme', sans-serif;
+    font-family: 'Montserrat', black, sans-serif;
 }
 .desc2{
     display: flex;
     text-align: center;
     justify-content: center;
-    font-family: 'Acme', sans-serif;
-    font-size: 25px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 26px;
     color:rgba(7, 22, 22, 0.781);
     margin-top:2px;
     border-bottom:1px solid rgb(0, 0, 0);
@@ -65,7 +68,6 @@ html, body{
     justify-content:center;
     flex-direction:column;
     padding:10px;
-    border-bottom:1px solid rgb(0, 0, 0);
     font-family: 'Overpass', sans-serif;
 }
 .link{
@@ -74,8 +76,28 @@ html, body{
     border-bottom:1px solid rgb(0, 0, 0);
     display:flex;
     margin-top: 5px;
+    text-decoration: none;
+    color:black;
+    font-family: 'Montserrat',Medium, sans-serif;
 }
 
 .logo_ico{
     margin-right:15px;
+}
+
+@media (min-width:600px){
+    html,body{
+        background-image: url(https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg);
+        background-repeat: no-repeat;
+        background-size:100vw 100vh;
+        background-position:center;
+    }
+    .container_tree{
+        margin-top: 10px;
+        width:400px;
+        padding:10px;
+    }
+    .link{
+        margin:0;
+    }
 }
