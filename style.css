@@ -24,7 +24,7 @@ html, body{
 }
 
 .container_tree{
-    background:rgb(255, 255, 255, 0.25);
+    background:rgb(255, 255, 255, 0.30);
     border-radius: 25px;
     box-shadow: 4px 4px 4px 4px rgba(1, 7, 1, 0.5);
     margin-top:3vh;
